@@ -1,0 +1,12 @@
+{"client": "client-1", "event": "SEND", "operation": "Increment", "lamport": 1}
+{"client": "client-2", "event": "SEND", "operation": "Increment", "lamport": 1}
+{"client": "client-3", "event": "SEND", "operation": "Get", "lamport": 1}
+{"client": "client-1", "event": "RECV", "operation": "IncrementReply", "lamport": 5}
+{"client": "client-1", "event": "SEND", "operation": "Increment", "lamport": 6}
+{"client": "client-3", "event": "RECV", "operation": "GetReply", "lamport": 7}
+{"client": "client-3", "event": "SEND", "operation": "Get", "lamport": 8}
+{"client": "client-2", "event": "RECV", "operation": "IncrementReply", "lamport": 10}
+{"client": "client-2", "event": "SEND", "operation": "Increment", "lamport": 11}
+{"client": "client-1", "event": "RECV", "operation": "IncrementReply", "lamport": 13}
+{"client": "client-3", "event": "RECV", "operation": "GetReply", "lamport": 15}
+{"client": "client-2", "event": "RECV", "operation": "IncrementReply", "lamport": 18}

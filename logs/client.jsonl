@@ -1,0 +1,8 @@
+{"event": "SEND", "counter_id": "likes:post-42", "lamport_time": 1, "timestamp": 1791442352.432236}
+{"event": "RECV", "counter_id": "likes:post-42", "lamport_time": 5, "timestamp": 1791442352.4344661}
+{"event": "SEND", "counter_id": "likes:post-42", "lamport_time": 1, "timestamp": 1791442361.475639}
+{"event": "RECV", "counter_id": "likes:post-42", "lamport_time": 7, "timestamp": 1791442361.47754}
+{"event": "SEND", "counter_id": "timeout_test", "lamport_time": 1, "timestamp": 1791444719.6163661}
+{"event": "RECV", "counter_id": "timeout_test", "lamport_time": 6, "timestamp": 1791444719.816312}
+{"event": "SEND", "counter_id": "timeout_test", "lamport_time": 1, "timestamp": 1791446093.780731}
+{"event": "RECV", "counter_id": "timeout_test", "lamport_time": 6, "timestamp": 1791446093.978048}
